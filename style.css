@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img-thumbnail{
+    border-radius: 50%;
+    margin: 10px;
+}
+.navbar{
+    margin-left: 20px;
+    margin-right: 20px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.namepad{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10%;
+    justify-content: center;
+    text-align: center;
+}
+.name{
+    color: rgb(15, 202, 15);
+}
+.namediv{
+    margin: 10px;
+}
