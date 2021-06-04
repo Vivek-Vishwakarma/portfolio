@@ -3,7 +3,6 @@
     padding: 0px;
 }
 .img-thumbnail{
-    border-radius: 50%;
     margin: 10px;
 }
 .navbar{
@@ -25,4 +24,23 @@
 }
 .namediv{
     margin: 10px;
+}
+.skill{
+    color: rgb(33, 33, 250);
+}
+.skillset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icons img{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+.icons img:hover{
+    height: 55px;
+    width: 55px;
+    transition: ease 0.2s;
 }
