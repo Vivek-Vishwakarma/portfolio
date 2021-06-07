@@ -25,9 +25,6 @@
 .namediv{
     margin: 10px;
 }
-.skill{
-    color: rgb(33, 33, 250);
-}
 .skillset{
     display: flex;
     justify-content: center;
@@ -43,4 +40,9 @@
     height: 55px;
     width: 55px;
     transition: ease 0.2s;
+}
+.skillSpan{
+    color: rgb(0, 0, 255);
+    font-size: large;
+    font-weight: bold;
 }
