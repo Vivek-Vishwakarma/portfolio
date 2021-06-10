@@ -78,6 +78,7 @@ html{
 }
 .ss{
     margin: 25px 50px;
+    max-height: 90vh;
 }
 footer{
     text-align: center;
