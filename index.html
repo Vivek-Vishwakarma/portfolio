@@ -11,6 +11,7 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="shortcut icon" href="myLogo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Vivek</title>
 </head>
 
@@ -23,13 +24,16 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent top">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" aria-current="page" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -55,7 +59,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/Vivek-Vishwakarma">GitHub</a>
+                        <a class="nav-link" target="_blank" href="https://github.com/Vivek-Vishwakarma">GitHub</a>
                     </li>
 
                 </ul>
@@ -73,10 +77,76 @@
         <div class="namediv">
             <h1> My Name is <span class="name">Vivek Vishwakarma</span></h1>
             <p><strong>I'm </strong><span class="animate skillSpan"></span></p>
+            <button type="button" class="btn btn-outline-success">Hire Me &#8594;</button>
         </div>
     </div>
 
-    <div class="skillset">
+    <div class="about">
+        <h3 class="headSkill">About Me</h3>
+    </div>
+
+    <div id="skills"  data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
+        <h3 class="headSkill">Skills</h3>
+        <h6>HTML <img src="html.png" width="30px" alt=""> :</h6>
+        <div class="progress" >
+            <div class="progress-bar  bg-success" role="progressbar" style="width: 80%;" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">80%</div>
+        </div>
+        <br>
+        <h6>CSS <img src="css.png" width="35px" alt=""> :</h6>
+        <div class="progress">
+            <div class="progress-bar  bg-success " role="progressbar" style="width: 75%;" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">75%</div>
+        </div>
+        <br>
+        <h6>JavaScript <img src="js.png" width="30px" alt=""> :</h6>
+        <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 60%;" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">60%</div>
+        </div>
+        <br>
+        <h6>Python <img src="py.png" width="30px" alt=""> :</h6>
+        <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">50%</div>
+        </div>
+        <br>
+        <h6>C++ <img src="c++.png" width="30px" alt=""> :</h6>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 65%;" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">65%</div>
+        </div>
+        <br>
+    </div>
+
+    <div class="ss" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
+        <h3 class="headSkill">Project Gallery</h3>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="ss1.PNG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="ss2.PNG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="ss3.PNG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="ss4.PNG" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="skillset"  data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
         <div class="icons">
             <a target="_blank" href="https://github.com/Vivek-Vishwakarma"><img src="git.png" alt="github"></a>
         </div>
@@ -87,18 +157,32 @@
             <a target="_blank" href="https://www.linkedin.com/in/vivek-vishwakarma-2172a519b/"><img src="li.png"
                     alt="LinkedIn"></a>
         </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </div> 
+
+    <footer>
+        <h3><a href="#top">Go To Top &#8593;</a></h3>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous">
+    </script>
     <script src="typed.js"></script>
     <script>
         var typed = new Typed('.animate', {
-            strings: ['Frontend WebDeveloper', 'Tech Enthusiast', 'Weeb', 'Gamer'],
+            strings: ['Frontend Webdeveloper', 'Tech Enthusiast', 'Weeb/Otaku', 'Gamer'],
             typeSpeed: 50,
             backSpeed: 40,
-            loop: true
+            loop: true,
+            cursorChar: '_'
         });
     </script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
