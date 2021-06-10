@@ -84,4 +84,15 @@ footer{
     text-align: center;
     max-width: 100vw;
     background-color: black;
+} 
+@media only screen and (max-width: 600px) {
+    .ss{
+        margin: 10px;
+    }
+    #skills{
+        margin: 10px; 
+    }
+    .namepad{
+        margin: 15px
+    }
 }
