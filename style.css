@@ -13,11 +13,12 @@ html{
     max-width: 100vw;
     margin-left: 20px;
     margin-right: 20px;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
+    /* position: -webkit-sticky;
+    position: sticky; */
     top: 0;
     z-index: 1000;
 }
+
 .namepad{
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +113,22 @@ footer{
 }
 .ab{
     margin-top: 30px;
+}
+.dark-mode{
+    background: black;
+    color: white;
+}
+.mode-icon{
+    margin: 0px 15px;
+    cursor: pointer;
+    width: 35px;
+}
+.sun-icon{
+    background-image: url("sun.svg");
+    background: white;
+}
+.light-text{
+    color: white;
 }
 @media only screen and (max-width: 600px) {
     .ss{
