@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 .img-thumbnail{
     margin: 10px;
 }
@@ -37,6 +38,7 @@ html{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 10px 2px;
 }
 .icons img{
     height: 50px;
@@ -44,9 +46,8 @@ html{
     margin: 5px;
 }
 .icons img:hover{
-    height: 55px;
-    width: 55px;
-    transition: ease 0.2s;
+    transform: translateY(-5px);
+    transition: ease-in-out 0.3s;
 }
 .skillSpan{
     color: rgb(0, 0, 255);
@@ -130,6 +131,17 @@ footer{
 .light-text{
     color: white;
 }
+.sdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 100px;
+}
+.simg{
+    width: 100px;
+    margin: 10px;
+}
 @media only screen and (max-width: 600px) {
     .ss{
         margin: 10px;
@@ -142,5 +154,11 @@ footer{
     }
     .about{
         flex-direction: column;
+    }
+    .mode-icon{
+        margin-bottom: 10px;
+    }
+    .sdiv{
+        margin: 10px;
     }
 }
