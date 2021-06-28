@@ -107,6 +107,7 @@ footer{
     text-align: left;
     display: flex;
     margin-top: 10px;
+    flex-wrap: wrap;
 }
 @keyframes anime{
     0%{width: 0%;}
@@ -170,5 +171,8 @@ footer{
     }
     .sdiv{
         margin: 10px;
+    }
+    .about{
+        margin: 10px 10px;
     }
 }
