@@ -34,7 +34,7 @@ html{
     margin: 10px;
 }
 .me{
-    flex-basis: 70%;
+    flex-basis: 45%;
 }
 .skillset{
     display: flex;
@@ -100,7 +100,14 @@ footer{
     animation-delay: 1s;
     transition-delay: 1s;
 }
-
+.info ul li{
+    list-style: none;
+}
+.info{
+    text-align: left;
+    display: flex;
+    margin-top: 10px;
+}
 @keyframes anime{
     0%{width: 0%;}
     100%{width: 75%;}
@@ -112,11 +119,10 @@ footer{
     text-align: center;
 }
 .about div img{
-    width: 50%;
+    width: 60%;
     margin: 10px;
 }
 .ab{
-    margin-top: 40px;
     align-items: center;
 }
 .dark-mode{
