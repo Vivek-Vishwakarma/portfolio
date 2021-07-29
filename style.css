@@ -5,7 +5,8 @@
 }
 
 .img-thumbnail{
-    margin: 10px;
+    margin: 20px;
+    width: 20vw;
 }
 html{
     scroll-behavior: smooth;
@@ -264,6 +265,9 @@ footer{
 }
 
 @media only screen and (max-width: 600px) {
+    .img-thumbnail{
+        width: 40vw;
+    }
     .ss{
         margin: 10px;
     }
