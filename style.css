@@ -11,9 +11,7 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-    background: linear-gradient(hsl(0, 100%, 80%),hsl(240, 100%, 74%));
-}
+
 
 /* .box{
     position: absolute;
@@ -267,7 +265,12 @@ footer{
     border: none;
     outline: none;
 }
-
+.navbar-toggler:focus{
+    outline: none !important;
+}
+.navbar-toggler-icon:focus{
+    outline: none;
+}
 
 @media only screen and (max-width: 600px) {
     .img-thumbnail{
